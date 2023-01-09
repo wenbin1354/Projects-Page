@@ -2,117 +2,194 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Projects</title>
-
-  <!-- Bootstrap -->
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Additional CSS Files -->
-  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/project-styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WenBin Lin - Projects</title>
+    <link rel="stylesheet" href="card.css" />
 </head>
 
 <body>
-  <!-- ***** Project List ***** -->
-  <div class="projects">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="header">
-          <h4>My Projects</h4>
-        </div>
-        <div class="row">
-          <!--*****List Items Start Here *****-->
+    <!-- 1st Header-->
+    <h1 class="header">HTML + CSS + JavaScript</h1>
 
-
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="img/memory-game.jpg" alt="memory game">
-              <h4>Memory Game<br><span>Javascript</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/Light-and-Sound-Memory-Game" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-                <li><a href="https://prework-light-and-sound-memory-game.glitch.me/" target="_blank"><i class="fa fa-code"></i> Display</li></a>
-              </ul>
+    <section class="card-list">
+        <!-- 1 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Website Collection</h2>
+            </header>
+            <img class="images" src="/img/scrolling-background.jpg" />
+            <p>
+                A collection of websites (mainly html+css) I built for practice.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/Website-Collection" target="_blank" rel="noreferrer">Source
+                    Code</a>
             </div>
-          </div>
+        </article>
 
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="img/tictactoe.jpg" alt="tictactoe">
-              <h4>TicTacToe<br><span>C++</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/Minimax-Algorithm" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-                
-              </ul>
+        <!-- 2 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>API Test</h2>
+            </header>
+            <img class="images" src="/img/apitest.jpg" />
+            <p>
+                API testing site like Postman, allows User to send GET POST PUT PATCH DELETE request to a url just like
+                Postman.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/API-Testing" target="_blank" rel="noreferrer">Source
+                    Code</a>
             </div>
-          </div>
+        </article>
 
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="img/coffee-shop.jpg" alt="">
-              <h4>Coffee Shop<br><span>CSS</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/Sample-Coffee-Shop" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-                <li><a href="https://wenbin1354.github.io/Sample-Coffee-Shop/" target="_blank"><i class="fa fa-code"></i> Display</li></a>
-              </ul>
+        <article class="card">
+            <header class="card-header">
+                <h2>AR Render</h2>
+            </header>
+            <img class="images" src="/img/ar.png" />
+            <p>
+                Render ar with a pattern on camera, using aframe and ar.js. Follow the instruction in the source page to
+                get started.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/ar-render" target="_blank" rel="noreferrer">Source
+                    Code</a>
             </div>
-          </div>
+        </article>
 
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="img/marker.jpg" alt="">
-              <h4>Marker<br><span>CSS</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/CSS-marker" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-                <li><a href="https://wenbin1354.github.io/CSS-marker/" target="_blank"><i class="fa fa-code"></i> Display</li></a>
-              </ul>
+    </section>
+
+    <!-- 2nd Header -->
+    <h1 class="header">React</h1>
+
+    <section class="card-list">
+        <!-- 1 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>TicTacToe</h2>
+            </header>
+            <img class="images" src="/img/tictactoeweb.jpg" />
+            <p>A tictactoe game allows 2 player to play locally online, deployed on web Through React and application as
+                C++ with a bot made from minimax algorithm.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/TicTacToe" target="_blank" rel="noreferrer">React Code</a>
+                <a href="https://github.com/wenbin1354/Minimax-Algorithm" target="_blank" rel="noreferrer">C++ Code</a>
             </div>
-          </div>
+        </article>
 
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="" alt="">
-              <h4>Polynomial Class<br><span>C++</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/Polynomial" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-              </ul>
+        <!-- 2 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Quote Generator</h2>
+            </header>
+            <img class="images" src="/img/quotegenerator.jpg" />
+            <p> Fetchs a new quote through API every time when the new quote button was clicked and render it.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/Quote-Generator" target="_blank" rel="noreferrer">Source Code</a>
+                <a href="https://wenbin1354.github.io/Quote-Generator/" target="_blank" rel="noreferrer"
+                    style="color:aqua">Live</a>
             </div>
-          </div>
+        </article>
 
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="img/tictactoeweb.jpg" alt="">
-              <h4>TicTacToe<br><span>React</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/TicTacToe-Web" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-                <li><a href="https://wenbin1354.github.io/TicTacToe-Web/" target="_blank"><i class="fa fa-code"></i> Display</li></a>
-              </ul>
+        <!-- 3 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Crypto Scroller</h2>
+            </header>
+            <img class="images" src="/img/cryptoscroller.jpg" />
+            <p>It renders cryptocurrencies using coincap API. Data fetches more when reach the end of the page. Display
+                the rank, symbol, name, price, market cap price in order.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/Crypto-Scroller" target="_blank" rel="noreferrer">Source Code</a>
+                <a href="https://wenbin1354.github.io/Crypto-Scroller/" target="_blank" rel="noreferrer"
+                    style="color:aqua">Live</a>
             </div>
-          </div>
+        </article>
 
-          <div class="col-lg-3 col-sm-6">
-            <div class="item">
-              <img src="img/quotegenerator.jpg" alt="">
-              <h4>Quote Generator<br><span>React</span></h4>
-              <ul>
-                <li><a href="https://github.com/wenbin1354/Quote-Generator" target="_blank"><i class="fa fa-github"></i> GitHub</li></a>
-                <li><a href="https://wenbin1354.github.io/Quote-Generator/" target="_blank"><i class="fa fa-code"></i> Display</li></a>
-              </ul>
+    </section>
+
+    <!-- 3rd Header -->
+    <h1 class="header">Node.js</h1>
+
+    <section class="card-list">
+        <!-- 1 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Discord Music Bot</h2>
+            </header>
+            <img class="images" src="/img/bot.jpg" />
+            <p>A discord bot that supports searching, playing, queueing videos on youtube and songs on soundcloud.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/Discord-Music-Bot" target="_blank" rel="noreferrer">Source
+                    Code</a>
             </div>
-          </div>
+        </article>
+    </section>
 
+    <!-- 4th Header -->
 
-          <!--***** List Item List Ends*****-->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- *****Project End ***** -->
+    <h1 class="header">React + Node.js</h1>
 
+    <section class="card-list">
+        <!-- 1 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>BookShare</h2>
+            </header>
+            <img class="images" src="/img/bookshare.jpg" />
+            <p>
+                Build with team of 4. A full stack CRUD application that allows users to share books with each other.
+                Users can create an account, search for books, and request to borrow books from other users.
+                Users can also accept or decline requests to borrow their books.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/kenko1290/Team-Artem---BookShare" target="_blank" rel="noreferrer">Source
+                    Code</a>
+                <a href="https://team-artem-book-share.netlify.app/" target="_blank" rel="noreferrer"
+                    style="color:aqua">Live</a>
+            </div>
+        </article>
 
+        <!-- 2 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>User Authenication</h2>
+            </header>
+            <img class="images" src="/img/noimg.jpg" />
+            <p>
+                A full stack web application with React, Express.js, and Sequelize.js,
+                handles user authentication and authorization, protect routes using passport.js
+                and user security with bcrypt.js.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/User-Authentication" target="_blank" rel="noreferrer">Source
+                    Code</a>
+            </div>
+        </article>
 
+        <!-- 3 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Files Upload</h2>
+            </header>
+            <img class="images" src="/img/fileupload.jpg" />
+            <p>
+                Multer + Mongodb to handle file uploads.
+                Allow the user to upload files and download files from the server.
+            </p>
+            <div class="tags">
+                <a href="https://github.com/wenbin1354/Files-Upload" target="_blank" rel="noreferrer">Source
+                    Code</a>
+            </div>
+        </article>
 
+    </section>
 </body>
 
 </html>
